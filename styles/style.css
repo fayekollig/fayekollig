@@ -1,0 +1,574 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*UNIVERSAL STYLES*/
+
+.hamburgerMenu {
+    float: right;
+    display: none;
+}
+
+.hamburgerMenu a {
+    display:block;
+    margin-right: 75px;
+    padding: 2px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-align: right;
+}
+
+.hamburgerMenu a:hover {
+    background-color: green;
+    color: black;
+    text-decoration: none;
+}
+
+.hamburgerMenu label {
+    display: block;
+    background-color: #7DB574;
+ 
+}
+ .hamburgerMenu img {
+     display: block;  
+     height: 50px;
+     padding-left: 10px;
+     float: right;
+    
+}
+
+.hamburgerMenu label div {
+    margin: 0 0 0 0;
+    display: none;
+    padding-left: 10px;
+    float: inherit;
+}
+
+.hamburgerMenu label input {
+    display: none;
+}
+
+.hamburgerMenu label input:checked ~ div {
+    display: block;
+}
+
+body {
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+ }
+.banner{
+    background-color: #d4e6d1;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 5px;
+    transition: .5s;
+}
+
+.banner a{
+    text-decoration: none;
+    color: #1f3207;
+    display: block;
+    
+}
+
+.banner a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.banner:hover{
+    background-color: green;
+}
+
+.navGrid {
+    display: grid;
+    grid-template-columns: 10em auto;
+    background-color: #7db574;
+    border-color: #7db574;
+    border-width: 0px 0px 10px 0px;
+    border-style: solid;
+    margin: 0;
+}
+
+
+.navigation {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 1.5em;
+    margin: 0;
+   
+}
+
+.navigation li{
+    float: left;
+    display: block;
+    color: #d4e6d1;
+    padding: 1.5em;
+    transition: .25s;
+    font-weight: 700;
+}
+
+.navigation li:hover{
+    color: #1f3207;
+    background-color: #d4e6d1;
+}
+
+.navigation li a{
+text-decoration: none;
+color: inherit;
+}
+
+.navGrid img{
+    padding-top: 1em;
+}
+
+main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;    
+}
+
+footer {
+    background-color: #7db574;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+
+footer p {
+    margin: 0;
+    padding: 5px;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:visited {
+    color: white;
+}
+
+
+
+/*ABOUT STYLES*/
+.video {
+    float: left;
+    width: 50%;
+}
+
+#mission h1 {
+    font-size: 4em;
+    color: #7db574;
+    margin: 0;
+    padding: 0;
+    padding-top: 250px;
+}
+
+#mission p {
+    margin: 0;
+    padding:0;
+     font-size: 2em;
+    width: 90%;
+    padding-bottom: 350px;
+}
+
+
+.modelicon {
+    height: 100px;
+    
+    /*float: left;*/
+}
+
+.modelheader {
+    color: #7db574;
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.ssnmodelflex {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    flex-wrap: wrap;
+    
+}
+
+.modelbox{
+   grid-row: auto;
+    padding: 0 1em 1em 1em;
+    text-align: center;
+    margin: 0px 5px;
+}
+
+.modeltext {
+    font-size: 1.25em;
+    margin: 0;
+}
+
+h2, .events {
+    font-size: 3em;
+    text-align: center;
+    color: #1f3207;
+    margin-top: 150px;
+}
+
+.backgroundLogo {
+    width: 60%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.faq {
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.faq p {
+    font-size: 1.2em;
+}
+
+
+/*ABOUT US STYLES*/
+
+.profilename {
+    color: #7DB574;
+    font-size: 2em;
+    padding: 0;
+    margin: 0;
+}
+
+.profiletitle {
+    font-size: 1.5em;
+     padding: 0;
+    margin: 0;
+}
+
+.profilequote {
+    font-style: italic;
+    font-weight: bolder;
+    float: left;
+    width:20%;
+    margin: 10px;
+    padding: 0;
+}
+
+
+.profilequote img {
+    width: 100%;
+}
+
+
+.profile p {
+    padding:10px;
+    margin: 0;
+    font-size: 1.2em;
+    height: 150px;
+}
+
+#justinparagraph {
+    height:300px;
+}
+
+.profile {
+    margin-bottom: 100px;
+}
+
+
+.leaderprofilename {
+    color: #7DB574;
+    font-size:1.5em;
+    padding: 0;
+    margin: 0;
+}
+
+/*get in touch styles*/
+
+.socialIcon {
+    width:150px;
+    border: 5px solid white;
+}
+
+.socialIconDiv {
+    width: 200px;
+    justify-content: center;
+    font-style: italic;
+    font-weight: 400;
+    padding: 15px 10px 10px 10px;
+    text-align: center;
+    font-size: 1em;
+    color:white;
+    border-radius: 10%;
+}
+
+.socialIconDiv a {
+    color: white;
+    text-decoration: none;
+}
+
+.iconContainer{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.socialIconDiv:hover {
+    background-color: #1f3207;
+    transition: background-color 0.5s;
+    transition-timing-function: ease-in;
+    
+}
+
+/* Calendar style */
+
+.carousel-inner img {
+    height: 500px;
+}
+
+.eventGrid {
+    display: flex;
+}
+
+.eventBox {
+    padding: 1em;
+    margin: 1em;
+    background-color: #D4E6D1;
+    text-align: center;
+    width: 30%;
+}
+
+.eventBox:hover {
+    background-color: #7DB574;
+}
+
+.eventBox h3 {
+    margin: .5em;
+    padding: 0;
+}
+
+.eventBox p {
+    margin:0;
+    padding:0;
+    font-size: 1em;
+}
+
+
+/*Resources styles*/
+
+.resourceList {
+    font-size: 1.25em;
+}
+.resourceList a{
+    color: #1F3207;
+    margin: 0;
+    padding: 0;
+}
+
+.resourceList a:hover{
+    color: white;
+}
+
+.resourceBox {
+    background-color: #D4E6D1;
+    padding: 10px;
+    border-radius: 10px;
+    width: 325px;
+    margin: 10px;
+}
+
+.resourceBox h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    font-style: italic;
+    text-align: center;
+}
+
+#resources {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+}
+
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width: 1400px) {
+    #mission p{
+        font-size: 1.5em;
+        padding-bottom: 200px;
+    }
+    
+    #mission h1 {
+        font-size: 3em;
+        padding-top: 200px;
+    }
+    
+    .navigation {
+        font-size: 1.25em;
+    }
+    
+    h2 {
+        margin-top: 100px;
+    }
+    
+    .profilequote {
+        width: 30%;
+    }
+    
+    .profile p {
+        height: 225px;
+    }
+    
+    #justinparagraph {
+        height: 350px;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    #mission p{
+        padding-bottom: 100px;
+        font-size: 1.5em;
+    }
+    
+    #mission h1 {
+       
+        padding-top: 100px;
+    }
+    
+    .navigation {
+        font-size: 1em;
+    }
+    
+    h2 {
+        margin-top: 100px;
+    }
+    
+     .profile p {
+        height: 300px;
+    }
+    
+    #justinparagraph {
+        height: 475px;
+    }
+     .resourceBox {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .missionFlex {
+          margin-left: auto;
+    margin-right: auto;
+    width: 60%;   
+        margin-top: 0;
+        margin-bottom: 0;
+        padding: 0;
+        text-align: center;
+    }
+    
+    .banner {
+        font-size: 1em;
+    }
+    
+    #mission h1 {
+        padding: 0;
+        margin: 0;
+    }
+    #mission p{
+        font-size: 1.5em;
+        padding:0;
+        padding-bottom: 50px;
+    }
+    
+    .backgroundLogo {
+        float:none;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    .navigation {
+        font-size: 1em;
+    }
+    
+    h2 {
+        margin-top: 20px;
+        font-size: 2em;
+    }
+    
+    .ssnmodelflex {
+    
+    grid-template-columns: 1fr;
+    
+}
+    .profilequote {
+        float:none;
+        width: 100%;
+    }
+    
+    .profile p {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    #justinparagraph {
+        height: auto;
+        margin-bottom: 10px;
+    }
+    
+    .eventBox {
+        width: 50%;
+    }
+   .hamburgerMenu {
+        display:block;
+    }
+    
+    .navigation {
+        display: none;
+    }
+    
+    .resourceBox {
+        width: 100%;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    
+    
+    main {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;    
+
+}
+    .missionFlex {
+        margin-left: auto;
+    margin-right: auto;
+    width: 80%;  
+    }
+    
+    .socialIconDiv a {
+        color: #1f3207;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    
+    .socialIconDiv:hover {
+        background-color: white;
+    }
+.carousel-inner img {
+    height: 300px;
+}
+    
+    .eventGrid {
+        display: block;
+    }
+    .eventBox {
+        width: 100%;
+    }
+    
+} 

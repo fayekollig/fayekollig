@@ -40,16 +40,28 @@
         <h2>GET IN TOUCH WITH US!</h2>
         
         <fieldset>
-          <legend>Get in touch with us!</legend>
+          <legend>Interested in collaborating or learning more? </legend>
         <form action="https://formspree.io/f/xwkylyap"  method="POST">
 
           <label>
-          Your email:<input type="email" name="_replyto">
-  </label>
-  <label>
-    Your message:
+          Your name <input type="text" name="_replyto">
+         </label>
+         <label>
+          Email we can reach you at  <input type="email" name="_replyto">
+         </label>
+         <label>
+          The reason for your message <select name="reasonformessage">
+            <option>I want to join but I'm not sure in what capacity</option>
+            <option>I have a question about your organization</option>
+            <option>I want to collaborate</option>
+            <option>Other</option>
+          </select>
+        </label>
+    <label>
+    Your message
     <textarea name="message"></textarea>
   </label>
+
   <button type="submit">Send</button>
 </form>
 </fieldset>

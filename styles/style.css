@@ -286,7 +286,7 @@ h2, .events {
 /*get in touch styles*/
 
 fieldset {
-  width: 25%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
   text-align: left;
@@ -331,14 +331,6 @@ label {
     justify-content: center;
     flex-wrap: wrap;
 }
-
-.socialIconDiv:hover {
-    background-color: #1f3207;
-    transition: background-color 0.5s;
-    transition-timing-function: ease-in;
-    
-}
-
 /* Calendar style */
 
 .carousel-inner img {
@@ -550,6 +542,9 @@ label {
     
     .resourceBox {
         width: 100%;
+    }
+    fieldset {
+      width: 75%;
     }
     
 }

@@ -295,7 +295,7 @@ fieldset {
   background-color:#d4e6d1;
 }
 
-form{
+form, button, input, label, select{
   display: block;
 }
 

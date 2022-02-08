@@ -292,6 +292,7 @@ fieldset {
   text-align: left;
   font-size: 1.25em;
   display: block;
+  background-color:#d4e6d1;
 }
 
 legend {
@@ -303,7 +304,11 @@ label, input, select {
   display: block;
 }
 
-
+button{
+  background-color:#1F3207;
+  color:#d4e6d1;
+  font-size: 1.75em;
+}
 .socialIcon {
     width:75px;
     border: 5px solid white;

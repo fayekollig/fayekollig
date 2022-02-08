@@ -301,7 +301,7 @@ legend {
 }
 
 label, input, select {
-  display: block;
+  display: inline-block;
 }
 
 button{
@@ -570,15 +570,7 @@ button{
     width: 80%;  
     }
     
-    .socialIconDiv a {
-        color: #1f3207;
-        font-weight: bold;
-        font-size: 1em;
-    }
     
-    .socialIconDiv:hover {
-        background-color: white;
-    }
 .carousel-inner img {
     height: 300px;
 }

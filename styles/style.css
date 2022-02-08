@@ -285,13 +285,12 @@ h2, .events {
 
 /*get in touch styles*/
 
-form {
-  text-align: left;
-  font-size: 1.25em;
-}
-
 fieldset {
   width: 25%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 1.25em;
 }
 
 legend {
@@ -299,7 +298,7 @@ legend {
   font-size: 1.5em;
 }
 
-label {
+#contactform label {
   display: block;
 }
 

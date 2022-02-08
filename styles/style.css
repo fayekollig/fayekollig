@@ -291,6 +291,7 @@ fieldset {
   margin-right: auto;
   text-align: left;
   font-size: 1.25em;
+  display: block;
 }
 
 legend {
@@ -298,17 +299,17 @@ legend {
   font-size: 1.5em;
 }
 
-#contactform label {
+label {
   display: block;
 }
 
 .socialIcon {
-    width:100px;
+    width:75px;
     border: 5px solid white;
 }
 
 .socialIconDiv {
-    width: 75px;
+    width: 100px;
     justify-content: center;
     font-style: italic;
     font-weight: 400;

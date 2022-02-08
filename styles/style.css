@@ -303,12 +303,12 @@ legend {
 }
 
 .socialIcon {
-    width:150px;
+    width:100px;
     border: 5px solid white;
 }
 
 .socialIconDiv {
-    width: 200px;
+    width: 75px;
     justify-content: center;
     font-style: italic;
     font-weight: 400;

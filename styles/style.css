@@ -298,15 +298,16 @@ fieldset {
 form{
   display: block;
 }
-label, input, select {
-  display: block;
-}
 
+label {
+  float: left;
+}
 
 button{
   background-color:#1F3207;
   color:#d4e6d1;
   font-size: 1.25em;
+  display: block;
 }
 
 /* Calendar style */

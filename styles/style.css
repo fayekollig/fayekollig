@@ -302,39 +302,13 @@ label, input, select {
   display: block;
 }
 
+
 button{
   background-color:#1F3207;
   color:#d4e6d1;
   font-size: 1.25em;
 }
-.socialIcon {
-    width:75px;
-    border: 5px solid white;
-}
 
-.socialIconDiv {
-    width: 200px;
-    justify-content: center;
-    font-style: italic;
-    font-weight: 400;
-    padding: 15px 10px 10px 10px;
-    text-align: center;
-    font-size: 1em;
-    color:black;
-    border-radius: 10%;
-}
-
-.socialIconDiv a {
-    color: black;
-    text-decoration: none;
-}
-
-.iconContainer{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
 /* Calendar style */
 
 .carousel-inner img {

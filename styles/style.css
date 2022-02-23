@@ -120,7 +120,10 @@ color: inherit;
 }
 
 .navGrid img{
-    padding-top: 1em;
+    height: 125px;
+    padding-top: .25em;
+    padding-bottom: .25em;
+    padding-left: 1em;
 }
 
 main {

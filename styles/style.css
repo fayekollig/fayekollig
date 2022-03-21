@@ -84,7 +84,6 @@ body {
     grid-template-columns: 10em auto;
     background-color: #7db574;
     border-color: #7db574;
-    border-width: 0px 0px 10px 0px;
     border-style: solid;
     margin: 0;
 }

@@ -95,7 +95,7 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    font-size: 1.5em;
+    font-size: 2em;
     margin: 0;
    
 }
@@ -104,7 +104,7 @@ body {
     float: left;
     display: block;
     color: #d4e6d1;
-    padding: 1.5em;
+    padding: 1em;
     transition: .25s;
     font-weight: 700;
 }

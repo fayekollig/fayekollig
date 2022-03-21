@@ -104,6 +104,7 @@ body {
     display: block;
     color: #d4e6d1;
     padding: 1em;
+    margin-top: 1em;
     transition: .25s;
     font-weight: 700;
 }

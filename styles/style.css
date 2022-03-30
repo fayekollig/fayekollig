@@ -60,7 +60,9 @@ p a{
   color:#1F3207;
   text-decoration: underline;
 }
-
+p a:hover{
+  color:#7db574;
+}
 .banner{
     background-color: #d4e6d1;
     font-size: 1.5em;

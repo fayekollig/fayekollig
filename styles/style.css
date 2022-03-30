@@ -455,6 +455,22 @@ button{
     
 }
 
+/*APPAREL STYLES*/
+.apparelContainer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.apparelBox {
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.apparelImage {
+  width: 5em;
+}
+
+
 @media screen and (max-width: 800px) {
     .missionFlex {
           margin-left: auto;

@@ -38,30 +38,12 @@
              </nav>
     </header>
 
-  <main>
-    <h2>APPAREL</h2>
-    <div class="apparelContainer">
-      <a href="/apparel pages/affirmationcrewneck">
-      <div class="apparelBox">
-        <img class="apparelImage" alt="image of affirmation crewneck" src="assets/affirmationcrewneck.JPG">
+    <main>
+      <h2>APPAREL</h2>
+      <div class="apparel_page_container">
+        <img src="/assets/affirmationcrewneck.JPG" alt="iamge of affirmation crewneck">
       </div>
-    </a>
-      <div class="apparelBox">
-        <img class="apparelImage" alt="image of retro logo crewneck" src="assets/retrocrewneck.JPG">
-      </div>
-      <div class="apparelBox">
-        <img class="apparelImage" alt="image of retro logo t shirt" src="assets/retrologotee.JPG">
-      </div>
-    </div>
-  </main>
-    
-  <footer>
-     <p><em>Copyright 2022 by Spartan Support Network</em></p>
-     
-     <p>Spartan Support Network is a student organization affiliated with Michigan State University and <a href="https://www.thesupportnetwork.org/">The Support Network</a></p>
- 
- </footer>
+    </main>
+
 </body>
 </html>
-
-            

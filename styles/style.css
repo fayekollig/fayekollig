@@ -476,6 +476,16 @@ button{
   width: 100%;
 }
 
+.apparel_page_container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.apparel_label {
+  text-align: left;
+}
+
 
 @media screen and (max-width: 800px) {
     .missionFlex {
@@ -583,5 +593,7 @@ button{
     .eventBox {
         width: 100%;
     }
-    
+    .apparelContainer{
+      display:block;
 } 
+}

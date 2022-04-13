@@ -487,6 +487,7 @@ button{
   font-size: 1.25em;
   background-color: #d4e6d1;
   border-radius: 10px;
+  display: inline;
 }
 
 .apparel_label form label {

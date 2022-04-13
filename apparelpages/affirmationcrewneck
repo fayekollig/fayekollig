@@ -42,6 +42,10 @@
       <h2>APPAREL</h2>
       <div class="apparel_page_container">
         <img src="/assets/affirmationcrewneck.JPG" alt="iamge of affirmation crewneck">
+        <div class="apparel_label">
+          <h2>Affirmation Crewneck</h2>
+          <p>100% cotton, black lightweight crewneck with 'Spartan Support Network' written on the right chest and 'You are worth of love and support' written on the back.</p>
+        </div>
       </div>
     </main>
 

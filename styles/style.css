@@ -481,12 +481,14 @@ button{
 
 .apparel_label {
   text-align: left;
-  background-color:#d4e6d1;
-  color:#1f3207;
+ 
 }
 
 .apparel_label form {
+  padding: 10px;
   font-size: 1.25em;
+  background-color: #d4e6d1;
+  border-radius: 10px;
 }
 .apparel_page_container img {
   width: 40%;

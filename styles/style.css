@@ -479,7 +479,7 @@ button{
 
 .apparel_label {
   text-align: left;
- 
+  display: inline;
 }
 
 .apparel_label form {
@@ -487,12 +487,9 @@ button{
   font-size: 1.25em;
   background-color: #d4e6d1;
   border-radius: 10px;
-  display: inline;
+
 }
 
-.apparel_label form label {
-  font-size: 1.5em;
-}
 .apparel_page_container img {
   width: 50%;
   display: inline;

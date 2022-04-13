@@ -468,6 +468,10 @@ button{
   flex-basis: 20%;
 }
 
+.apparelBox:hover {
+  background-color:#d4e6d1;
+}
+
 .apparelImage {
   width: 100%;
 }

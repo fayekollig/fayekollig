@@ -469,7 +469,8 @@ button{
 }
 
 .apparelBox:hover {
-  background-color:#d4e6d1;
+  border-color:#7DB574;
+  border-width: 20px;
 }
 
 .apparelImage {
@@ -484,6 +485,8 @@ button{
 
 .apparel_label {
   text-align: left;
+  flex-grow: 1;
+  flex-basis: 20%;
 }
 
 

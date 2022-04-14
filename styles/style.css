@@ -487,12 +487,14 @@ button{
   font-size: 1.25em;
   background-color: #d4e6d1;
   border-radius: 10px;
+  display: inline;
+
 
 }
 
 .apparel_page_container img {
   width: 50%;
-  display: inline;
+  display: block;
 }
 
 @media screen and (max-width: 800px) {

@@ -482,6 +482,7 @@ button{
 .apparel_label {
   text-align: left;
   display: inline;
+  width: 40%;
 }
 
 .apparel_label form {

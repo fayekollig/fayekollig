@@ -495,7 +495,7 @@ button{
 
 .apparel_page_container img {
   width: 50%;
-  display: block;
+  display: inline;
 }
 
 @media screen and (max-width: 800px) {

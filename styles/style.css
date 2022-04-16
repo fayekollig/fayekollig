@@ -22,6 +22,7 @@
     background-color: green;
     color: black;
     text-decoration: none;
+    cursor: pointer;
 }
 
 .hamburgerMenu label {
@@ -62,6 +63,7 @@ p a{
 }
 p a:hover{
   color:#7db574;
+  cursor: pointer;
 }
 .banner{
     background-color: #d4e6d1;
@@ -81,10 +83,12 @@ p a:hover{
 .banner a:hover {
     text-decoration: none;
     color: white;
+    cursor: pointer;
 }
 
 .banner:hover{
     background-color: green;
+    cursor: pointer;
 }
 
 .navGrid {
@@ -121,6 +125,7 @@ p a:hover{
 .navigation li:hover{
     color: #1f3207;
     background-color: #d4e6d1;
+    cursor: pointer;
 }
 
 .navigation li a{
@@ -323,6 +328,7 @@ button{
 button:hover {
   background-color:#7DB574;
   color:#1F3207;
+  cursor: pointer;
 }
 
 /* Calendar style */
@@ -345,6 +351,7 @@ button:hover {
 
 .eventBox:hover {
     background-color: #7DB574;
+    cursor: pointer;
 }
 
 .eventBox h3 {
@@ -372,6 +379,7 @@ button:hover {
 
 .resourceList a:hover{
     color: white;
+    cursor: pointer;
 }
 
 .resourceBox {
@@ -396,40 +404,6 @@ button:hover {
     justify-content: flex-start;
 }
 
-/*MEDIA QUERIES*/
-
-
-@media screen and (max-width: 1400px) {
-    #mission p{
-        font-size: 1.5em;
-        padding-bottom: 200px;
-    }
-    
-    #mission h1 {
-        font-size: 3em;
-        padding-top: 200px;
-    }
-    
-    .navigation {
-        font-size: 1.25em;
-    }
-    
-    h2 {
-        margin-top: 100px;
-    }
-    
-    .profilequote {
-        width: 30%;
-    }
-    
-    .profile p {
-        height: 225px;
-    }
-    
-    #justinparagraph {
-        height: 350px;
-    }
-}
 
 /*APPAREL STYLES*/
 .apparelContainer{
@@ -447,6 +421,7 @@ button:hover {
   border-style: solid;
   border-width: 15px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .apparelImage {
@@ -473,6 +448,40 @@ button:hover {
 }
 
 
+/*MEDIA QUERIES*/
+
+
+@media screen and (max-width: 1400px) {
+  #mission p{
+      font-size: 1.5em;
+      padding-bottom: 200px;
+  }
+  
+  #mission h1 {
+      font-size: 3em;
+      padding-top: 200px;
+  }
+  
+  .navigation {
+      font-size: 1.25em;
+  }
+  
+  h2 {
+      margin-top: 100px;
+  }
+  
+  .profilequote {
+      width: 30%;
+  }
+  
+  .profile p {
+      height: 225px;
+  }
+  
+  #justinparagraph {
+      height: 350px;
+  }
+}
 @media screen and (max-width: 1100px) {
     #mission p{
         padding-bottom: 100px;

@@ -316,7 +316,13 @@ button{
   background-color:#1F3207;
   color:#d4e6d1;
   font-size: 1.25em;
+  margin: 10px;
   display: block;
+}
+
+button:hover {
+  background-color:#7DB574;
+  color:#1F3207;
 }
 
 /* Calendar style */
@@ -425,6 +431,48 @@ button{
     }
 }
 
+/*APPAREL STYLES*/
+.apparelContainer{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.apparelBox {
+  flex-grow: 1;
+  flex-basis: 20%;
+}
+
+.apparelBox:hover {
+  border-color:#7DB574;
+  border-style: solid;
+  border-width: 15px;
+  border-radius: 10px;
+}
+
+.apparelImage {
+  width: 100%;
+}
+
+.apparel_label {
+  text-align: left;
+  float: right;
+  width: 40%;
+}
+
+.apparel_label form {
+  padding: 10px;
+  font-size: 1.25em;
+  background-color: #d4e6d1;
+  border-radius: 10px;
+  display: inline;
+}
+
+.apparel_page_container img {
+  width: 50%;
+  float: left;
+}
+
+
 @media screen and (max-width: 1100px) {
     #mission p{
         padding-bottom: 100px;
@@ -457,45 +505,6 @@ button{
     
 }
 
-/*APPAREL STYLES*/
-.apparelContainer{
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-.apparelBox {
-  flex-grow: 1;
-  flex-basis: 20%;
-}
-
-.apparelBox:hover {
-  border-color:#7DB574;
-  border-style: solid;
-  border-width: 15px;
-  border-radius: 10px;
-}
-
-.apparelImage {
-  width: 100%;
-}
-
-.apparel_label {
-  text-align: left;
-  display: inline;
-  width: 40%;
-}
-
-.apparel_label form {
-  padding: 10px;
-  font-size: 1.25em;
-  background-color: #d4e6d1;
-  border-radius: 10px;
-}
-
-.apparel_page_container img {
-  width: 50%;
-  float: left;
-}
 
 @media screen and (max-width: 800px) {
     .missionFlex {

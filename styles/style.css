@@ -444,7 +444,7 @@ button:hover {
 
 .apparel_page_container img {
   width: 50%;
-  float: left;
+  display: inline;
 }
 
 

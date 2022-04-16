@@ -419,9 +419,10 @@ button:hover {
 .apparelBox:hover {
   border-color:#7DB574;
   border-style: solid;
-  border-width: 15px;
+  border-width: 10px;
   border-radius: 10px;
   cursor: pointer;
+  transition: .25s;
 }
 
 .apparelImage {

@@ -438,7 +438,7 @@ button:hover {
   text-align: left;
   display: inline;
   width: 100%;
-  flex-grow: 2;
+  flex-grow: 1;
   margin: 10px;
 }
 

@@ -438,8 +438,9 @@ button:hover {
   text-align: left;
   display: inline;
   width: 100%;
-  flex-grow: 1;
+  flex-grow: 2;
   flex-basis: 20%;
+  margin: 10px;
 }
 
 .apparel_label form {

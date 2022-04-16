@@ -453,7 +453,7 @@ button:hover {
 .apparel_page_container img {
   width: 100%;
   flex-grow: 1;
-  flex-basis: 20%;
+  flex-basis: 10%;
 }
 
 

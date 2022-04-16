@@ -431,7 +431,8 @@ button:hover {
 
 .apparel_label {
   text-align: left;
-  
+  display: inline;
+  width: 40%;
 }
 
 .apparel_label form {
@@ -444,7 +445,7 @@ button:hover {
 
 .apparel_page_container img {
   width: 50%;
-  float: right;
+  float: left;
 }
 
 

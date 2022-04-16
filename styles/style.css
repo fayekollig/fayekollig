@@ -430,7 +430,6 @@ button:hover {
 
 .apparel_label {
   text-align: left;
-  float: right;
   width: 40%;
 }
 
@@ -444,7 +443,7 @@ button:hover {
 
 .apparel_page_container img {
   width: 50%;
-  float: left;
+  float: right;
 }
 
 
